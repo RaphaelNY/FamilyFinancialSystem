@@ -19,4 +19,5 @@ tauri = { version = "2.0.0-rc", features = [] }
 tauri-plugin-shell = "2.0.0-rc"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
+surrealdb = { version = "1.5.4", features = ["kv-mem", "kv-rocksdb", "kv-speedb", "kv-fdb-7_1", "kv-tikv"] }
 
